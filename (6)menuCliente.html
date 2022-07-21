@@ -1,0 +1,87 @@
+<html>
+<head>
+    <title>Usuario</title>
+    <link rel="stylesheet" href="css/estilos.css">
+    <link rel="stylesheet" href="css/fonts.css">
+    <link href="https://fonts.googleapis.com/css2?family=Baloo+Paaji+2:wght@500;600;700&display=swap" rel="stylesheet">
+    <style>
+        
+        body {
+        background-image: url(img/fondoazul.jpg);
+        font-family:verdana;
+      }  
+      #tabmenu {
+        text-align: center;
+      }
+      #mantenedor {
+        margin:0 auto;
+        width:1300px;
+      }
+      #menu {
+        background-color:rgb(1, 16, 100);
+        border: white 3px solid;
+        float:left;
+        height:610px;
+        padding:20px;
+        width:180px;
+      }
+      #cabecera {
+        color:rgb(255, 255, 255);
+        background-color:rgb(1, 16, 100);
+        border: white 3px solid;
+        padding:10px;
+        width:1274px;
+      }
+      h1 {
+        text-align: center;
+      }
+      #contenido {
+        background-color:rgb(2, 21, 124);
+        border: white 3px solid;
+        float:left;
+        height:547px;
+        padding:10px;
+        width:1048px;
+      }
+    </style>
+</head>
+<body>
+    <div id="mantenedor">
+        <div id="menu">
+        <table id="tabmenu">      
+            <tr>
+              <br><br>
+              <td><a href="(30 Admin)verVehiculos.php" target="ventana_iframe"><input type="submit" name="btnVehiculo" style="width:180px; height:50px;" value="VEHICULOS DISPONIBLES"></a></td>
+            </tr>    
+            <tr>
+              <td><a href="(28 Admin)nuevoArriendo.php" target="ventana_iframe"><input type="submit" name="btnArriendo" style="width:180px; height:50px;" value="ARRIENDO DE VEHICULO"></a></td>
+            </tr>       
+            <tr>
+              <td><a href="(29 Admin)verCliente.php" target="ventana_iframe"><input type="submit" name="btnEstado" style="width:180px; height:50px;" value="VER ARRIENDOS"></a></td>
+            </tr>
+            <tr>
+              <td><a href="(26 Cliente)contacto.php" target="ventana_iframe"><input type="submit" name="btnContacto" style="width:180px; height:50px;" value="CONTACTO"></a></td>
+            </tr>  
+            <tr>
+              <td><br><br><br><br><br><br><br><br></td>
+            </tr> 
+            <tr>
+              <td><a href="PerfilC.php" target="ventana_iframe"><input type="submit" name="btnPerfil" style="width:180px; height:50px;" value="PERFIL"></a></td>
+            </tr>
+            <tr>
+              <td><a href="login.php"><input type="submit" name="btnSalir" style="width:180px; height:50px;" value="SALIR"></a></td>
+            </tr>    
+        </table>
+        </div>
+        <div id="cabecera">
+            <h1>MENU USUARIO</h1>
+        </div>
+        <div id="contenido">
+            <iframe src="" 
+            marginwidth="0" marginheight="0" name="ventana_iframe" scrolling="yes" border="0" 
+            frameborder="0" width="1045" height="547">
+            </iframe>
+        </div>
+    </div>
+</body>
+</html>
